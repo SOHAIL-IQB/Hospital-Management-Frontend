@@ -39,7 +39,7 @@ const HospitalDetails = () => {
             <img src={hospital.image} alt={hospital.name} className="hospital-image" />
             <p><strong>City:</strong> {hospital.city}</p>
             <p><strong>Rating:</strong> ⭐ {hospital.rating}</p>
-            <p><strong>Specialities:</strong> {hospital.specialities.join(", ")}</p>
+            <p><strong>Specialities:</strong> {hospital.speciality.join(", ")}</p>
 
             {hospital.description && <p><strong>Description:</strong> {hospital.description}</p>}
             {hospital.images && hospital.images.length > 0 && (
