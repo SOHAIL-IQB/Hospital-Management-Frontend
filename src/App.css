@@ -7,16 +7,16 @@ body {
 }
 
 /*here i am editing image from hospital details*/
-.hospital-details img{
+.hospital-details img {
   max-width: 36%;
   border-radius: 10px;
 }
 
-.container, 
-.form-container, 
-.hospital-details, 
-.delete-container, 
-.signup-container, 
+.container,
+.form-container,
+.hospital-details,
+.delete-container,
+.signup-container,
 .login-container {
   max-width: 700px;
   margin: 30px auto;
@@ -32,7 +32,9 @@ h2 {
   margin-bottom: 15px;
 }
 
-.hospital-form, .signup-form, .login-form {
+.hospital-form,
+.signup-form,
+.login-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,14 +70,14 @@ h2 {
   box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
 }
 
-button, 
-.edit-btn, 
-.delete-btn, 
-.view-btn, 
-.submit-btn, 
-.logout-btn, 
-.signup-btn, 
-.login-btn, 
+button,
+.edit-btn,
+.delete-btn,
+.view-btn,
+.submit-btn,
+.logout-btn,
+.signup-btn,
+.login-btn,
 .add-hospital-btn {
   padding: 12px 18px;
   border: none;
@@ -89,11 +91,14 @@ button,
   margin-top: 12px;
 }
 
-.submit-btn, .add-hospital-btn {
+.submit-btn,
+.add-hospital-btn {
   background-color: #3498db;
 }
 
-.edit-btn, .signup-btn, .login-btn {
+.edit-btn,
+.signup-btn,
+.login-btn {
   background-color: #3498db;
 }
 
@@ -113,14 +118,14 @@ button,
   background-color: #f39c12;
 }
 
-button:hover, 
-.edit-btn:hover, 
-.delete-btn:hover, 
-.view-btn:hover, 
-.submit-btn:hover, 
-.logout-btn:hover, 
-.signup-btn:hover, 
-.login-btn:hover, 
+button:hover,
+.edit-btn:hover,
+.delete-btn:hover,
+.view-btn:hover,
+.submit-btn:hover,
+.logout-btn:hover,
+.signup-btn:hover,
+.login-btn:hover,
 .add-hospital-btn:hover {
   opacity: 0.9;
   transform: translateY(-2px);
@@ -188,7 +193,8 @@ button:hover,
   gap: 15px;
 }
 
-.signup-btn, .login-btn {
+.signup-btn,
+.login-btn {
   text-decoration: none;
   padding: 10px 18px;
   font-size: 16px;
@@ -201,7 +207,8 @@ button:hover,
   transition: 0.3s;
 }
 
-.signup-btn:hover, .login-btn:hover {
+.signup-btn:hover,
+.login-btn:hover {
   background-color: #2980b9;
 }
 
@@ -218,7 +225,11 @@ button:hover,
 }
 
 @media (max-width: 768px) {
-  .container, .form-container, .hospital-details, .delete-container {
+
+  .container,
+  .form-container,
+  .hospital-details,
+  .delete-container {
     width: 90%;
   }
 
@@ -281,7 +292,7 @@ button:hover,
 }
 
 .nav-link:hover {
-  color: #ffcc00;  
+  color: #ffcc00;
 }
 
 .dropdown-toggle {
@@ -306,7 +317,7 @@ button:hover,
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   display: none;
 }
@@ -317,7 +328,8 @@ button:hover,
   text-decoration: none;
   display: block;
   background-color: #f9f9f9;
-  border-radius: 5px; /* Added border radius */
+  border-radius: 5px;
+  /* Added border radius */
 }
 
 .dropdown-menu a:hover {
@@ -327,9 +339,9 @@ button:hover,
 .dropdown-menu.show {
   display: block;
   background-color: #f9f9f9;
-  padding: 10px; 
-  border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
@@ -350,13 +362,15 @@ button:hover,
     margin-bottom: 10px;
   }
 
-  .nav-link, .nav-btn, .dropdown-toggle {
+  .nav-link,
+  .nav-btn,
+  .dropdown-toggle {
     font-size: 16px;
     width: fit-content;
     text-align: left;
     padding: 10px;
     margin-top: 0;
-    border-radius: 6px; 
+    border-radius: 6px;
   }
 
   .dropdown-menu {
@@ -366,14 +380,14 @@ button:hover,
     margin: 0;
     border: none;
     box-shadow: none;
-    border-radius: 10px; 
+    border-radius: 10px;
   }
 
   .dropdown-menu a {
     padding: 10px;
     border-bottom: 1px solid #ddd;
     width: fit-content;
-    border-radius: 5px; 
+    border-radius: 5px;
   }
 
   .dropdown-menu a:last-child {
@@ -400,7 +414,9 @@ button:hover,
     font-size: 20px;
   }
 
-  .nav-link, .nav-btn, .dropdown-toggle {
+  .nav-link,
+  .nav-btn,
+  .dropdown-toggle {
     font-size: 14px;
     padding: 8px 12px;
   }
@@ -415,7 +431,9 @@ button:hover,
     font-size: 18px;
   }
 
-  .nav-link, .nav-btn, .dropdown-toggle {
+  .nav-link,
+  .nav-btn,
+  .dropdown-toggle {
     font-size: 12px;
     padding: 6px 10px;
   }
@@ -424,17 +442,21 @@ button:hover,
     padding: 6px;
   }
 }
-.dropdown-item1{
- color:blue !important;
+
+.dropdown-item1 {
+  color: blue !important;
 }
-.dropdown-item2{
+
+.dropdown-item2 {
   background-color: red;
-  color:white;
+  color: white;
 }
-.dropdown-item3{
+
+.dropdown-item3 {
   color: #007BFF !important;
 }
-.dropdown-item4{
+
+.dropdown-item4 {
   color: #007BFF !important;
 }
 
