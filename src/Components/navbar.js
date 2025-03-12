@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center group">
             {/* You can add an icon here */}
             <h1 className="text-xl font-bold tracking-tight group-hover:text-blue-200 transition-colors duration-200">
-              CodingSpoon HMS
+              Hospital Management System
             </h1>
           </Link>
         </div>
